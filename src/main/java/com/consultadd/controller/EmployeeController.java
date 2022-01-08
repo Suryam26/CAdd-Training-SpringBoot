@@ -3,6 +3,7 @@ package com.consultadd.controller;
 import com.consultadd.model.Employee;
 import com.consultadd.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -32,6 +33,11 @@ public class EmployeeController {
     @DeleteMapping("/employee/{id}")
     public  String delEmployee(@PathVariable String id){
         return employeeService.delEmployee(id);
+    }
+
+    @GetMapping("/employee/{city}")
+    public ResponseEntity findEmployeeByCity(@PathVariable("city") String city){
+        return ResponseEntity.ok(employeeService.findAllByCity(city));
     }
 
 }
