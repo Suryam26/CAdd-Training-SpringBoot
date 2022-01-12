@@ -14,3 +14,7 @@ This is a training project where we create a REST API using Spring Boot.
 ### Task - 3
 * User Registration.
 * Integrate Spring Security for user auth.
+
+##### Links
+* https://www.linkedin.com/pulse/spring-security-jpa-authentication-mysql-mohamed-firnas
+* https://www.bezkoder.com/spring-boot-jwt-authentication/
