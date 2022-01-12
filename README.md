@@ -13,3 +13,6 @@ This is a training project where we create a REST API using Spring Boot.
 ---
 ### Testing
 * Write unit tests for Employee services.
+
+##### Links
+* https://gabrielpulga.medium.com/a-beginners-guide-to-unit-testing-crud-endpoints-of-a-spring-boot-java-web-service-api-8ae342c9cbcd
