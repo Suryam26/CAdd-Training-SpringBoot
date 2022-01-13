@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demoB
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        instanceId: ${spring.application.name}
+      config:
+        enabled: true
